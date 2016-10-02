@@ -1,0 +1,82 @@
+@import "../node_modules/bootstrap-grid-only/bootstrap.css";
+
+$nc-red-line-color: #d9230f;
+$nc-grey-line-color: #ddd;
+$nc-header-text-color: #222;
+$nc-text-color: #333;
+
+.nerd-camp {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: $nc-text-color;
+  background-color: #fff;
+  font-weight: 200;
+
+  &__pull-right {
+    float: right;
+  }
+
+  &__link {
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover {
+      color: $nc-red-line-color;
+
+      & svg {
+        fill: $nc-red-line-color;
+      }
+    }
+  }
+
+  &__header {
+    position: relative;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    margin-bottom: 16px;
+  }
+
+  &__header-text {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    cursor: default;
+
+    & small {
+      font-size: 65%;
+      white-space: nowrap;
+      font-weight: normal;
+    }
+  }
+
+  &__subheader-text {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    color: #222;
+    cursor: default;
+
+    & span {
+      margin-right: 16px;
+    }
+  }
+
+  &__navbar {
+    border-top: dashed rgba(2, 2, 2, 0.3) 1px;
+    border-bottom: dashed rgba(2, 2, 2, 0.3) 1px;
+    margin: 56px 0;
+    padding: 24px 4px;
+    font-weight: 400;
+
+    & span:not(:last-child) {
+      margin-right: 16px;
+    };
+  }
+
+  &__logo-line {
+    color: $nc-red-line-color;
+  }
+
+}

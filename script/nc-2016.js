@@ -2,11 +2,35 @@ require('./../style/nc-2016.scss');
 
 var $ = require('jquery');
 
+var React = require('react');
+var render = require('react-dom').render;
+
 $(function() {
   $('body').append(require('./../template/nc-2016.html'));
   initIcons();
-});
 
+  var gallery = require('./photo-gallery.jsx');
+  gallery();
+
+  // console.log('Gallery', Gallery);
+  // var gallery = React.createElement(Gallery.name, {});
+  // debugger;
+  // gallery.setState({photos: PHOTO_SET});
+  //
+  // render(
+  //   gallery,
+  //   document.getElementById('past-events-gallery-placeholder')
+  // );
+
+  // export default class Sample extends React.Component {
+  //   render() {
+  //     return (
+  //       <Gallery photos={PHOTO_SET} />
+  //   );
+  //   }
+  // }
+
+});
 
 function initIcons() {
   ['mail', 'vk'].forEach(function(iconName) {

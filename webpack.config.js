@@ -22,6 +22,14 @@ module.exports = {
   module: {
     loaders: [
       {
+        test: /\.jsx$/,
+        exclude: /node_modules/,
+        loader: 'babel',
+        query: {
+          presets: ['react']
+        }
+      },
+      {
         test: /\.svg$/,
         loaders: [
           'svg-sprite'
@@ -64,17 +72,16 @@ module.exports = {
       template: 'index.html',
       filename: 'index.html'
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      minimize: true,
-      sourceMap: false,
-      compress: {
-        warnings: false
-      }
-    }),
+    // new webpack.optimize.UglifyJsPlugin({
+    //   minimize: true,
+    //   sourceMap: false,
+    //   compress: {
+    //     warnings: false
+    //   }
+    // }),
     new webpack.DefinePlugin({
-      'CONFIG': {
-        'BACKEND_URL': JSON.stringify(process.env['starting-page.backend'] || '../rest'),
-        'TEST_BACKEND': 'https://hmaster-test.labs.intellij.net:5443/youtrack/youtrack-hosted-master/rest'
+      'process.env':{
+        'NODE_ENV': JSON.stringify('development')
       }
     })
   ]

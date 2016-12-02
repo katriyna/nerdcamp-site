@@ -163,7 +163,40 @@ arr = [
   {base: 'https://pp.vk.me/c412231/v412231606/', x: ['845/YlLlZfhahVU',604,453], y: ['845/YlLlZfhahVU',807,605], z: ['845/YlLlZfhahVU',1280,960]},
   {base: 'https://pp.vk.me/c412231/v412231606/', x: ['84e/vpjVoKV9C_Y',604,453], y: ['84e/vpjVoKV9C_Y',807,605], z: ['84e/vpjVoKV9C_Y',1280,960]}
 ];
-  
+
+
+arr = [
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['5560/lY9gvLUu7-o',604,453], y: ['5560/lY9gvLUu7-o',807,605], z: ['5560/lY9gvLUu7-o',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['557b/6Zwbc8s6E_I',604,453], y: ['557b/6Zwbc8s6E_I',807,605], z: ['557b/6Zwbc8s6E_I',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['5584/7VIsFFcwdec',604,453], y: ['5584/7VIsFFcwdec',807,605], z: ['5584/7VIsFFcwdec',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['55a8/ACusdQli3fI',604,453], y: ['55a8/ACusdQli3fI',807,605], z: ['55a8/ACusdQli3fI',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['5596/3P-18RDSM54',604,453], y: ['5596/3P-18RDSM54',807,605], z: ['5596/3P-18RDSM54',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['5569/8aARQ_Jr8Do',604,453], y: ['5569/8aARQ_Jr8Do',807,605], z: ['5569/8aARQ_Jr8Do',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['55ba/PxX8yaVKnHQ',604,453], y: ['55ba/PxX8yaVKnHQ',807,605], z: ['55ba/PxX8yaVKnHQ',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['559f/SNS6hN9Sp_w',604,453], y: ['559f/SNS6hN9Sp_w',807,605], z: ['559f/SNS6hN9Sp_w',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['55cc/IEY6gVAVqJA',604,453], y: ['55cc/IEY6gVAVqJA',807,605], z: ['55cc/IEY6gVAVqJA',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['55c3/auMsXyDMN2M',604,453], y: ['55c3/auMsXyDMN2M',807,605], z: ['55c3/auMsXyDMN2M',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['55b1/yI6kszPDT1U',604,453], y: ['55b1/yI6kszPDT1U',807,605], z: ['55b1/yI6kszPDT1U',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['55de/S27ae3HZ7Z0',604,453], y: ['55de/S27ae3HZ7Z0',807,605], z: ['55de/S27ae3HZ7Z0',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['55d5/FncdNRdEvEQ',604,453], y: ['55d5/FncdNRdEvEQ',807,605], z: ['55d5/FncdNRdEvEQ',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['55e7/YngfIlb9dBY',604,453], y: ['55e7/YngfIlb9dBY',807,605], z: ['55e7/YngfIlb9dBY',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['55f0/kQ4Fdy6Jpjw',604,453], y: ['55f0/kQ4Fdy6Jpjw',807,605], z: ['55f0/kQ4Fdy6Jpjw',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['5602/OhPhKZJUkr0',604,453], y: ['5602/OhPhKZJUkr0',807,605], z: ['5602/OhPhKZJUkr0',1280,960]},
+  {base:'https://pp.vk.me/c403930/v403930270/', x: ['2e52/DvuRcBCWGWw',604,403], y: ['2e52/DvuRcBCWGWw',807,538], z: ['2e52/DvuRcBCWGWw',1280,853]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['5614/ZZmnFKzX5Lo',604,453], y: ['5614/ZZmnFKzX5Lo',807,605], z: ['5614/ZZmnFKzX5Lo',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['560b/Ol1FQamSLCE',604,453], y: ['560b/Ol1FQamSLCE',807,605], z: ['560b/Ol1FQamSLCE',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['561d/1_dcP8vF2jE',604,453], y: ['561d/1_dcP8vF2jE',807,605], z: ['561d/1_dcP8vF2jE',1280,960]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['5638/yCL1wJ6MOnk',604,453], y: ['5638/yCL1wJ6MOnk',807,605], z: ['5638/yCL1wJ6MOnk',1280,960]},
+  {base:'https://pp.vk.me/c403930/v403930270/', x: ['2e76/WsQJ2ZFeas0',402,604], y: ['2e76/WsQJ2ZFeas0',537,807], z: ['2e76/WsQJ2ZFeas0',682,1024]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['564a/BK587UP1NHU',604,453], y: ['564a/BK587UP1NHU',807,605], z: ['564a/BK587UP1NHU',1280,960]},
+  {base:'https://pp.vk.me/c403930/v403930270/', x: ['2e40/cMfsWDrq8HQ',402,604], y: ['2e40/cMfsWDrq8HQ',537,807], z: ['2e40/cMfsWDrq8HQ',682,1024]},
+  {base:'https://pp.vk.me/c403930/v403930270/', x: ['2e7f/yyyYF0pXbRQ',402,604], y: ['2e7f/yyyYF0pXbRQ',537,807], z: ['2e7f/yyyYF0pXbRQ',682,1024]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['562f/3NXJtME6cT4',604,453], y: ['562f/3NXJtME6cT4',807,605], z: ['562f/3NXJtME6cT4',1280,960]},
+  {base:'https://pp.vk.me/c403930/v403930270/', x: ['2e5b/sYABPhoFF98',402,604], y: ['2e5b/sYABPhoFF98',537,807], z: ['2e5b/sYABPhoFF98',682,1024]},
+  {base:'https://pp.vk.me/c410830/v410830603/', x: ['5626/HP1EEHpUJig',604,453], y: ['5626/HP1EEHpUJig',807,605], z: ['5626/HP1EEHpUJig',1280,960]}
+];
+
+
 
 arr = arr.map(function(item) {
   return {
@@ -1583,6 +1616,287 @@ var PHOTO_SET = [{
     url_l: 'https://pp.vk.me/c412231/v412231606/84e/vpjVoKV9C_Y.jpg',
     width_l: 1280,
     height_l: 960
+  },
+  {
+    url_m: 'https://pp.vk.me/c410830/v410830603/5560/lY9gvLUu7-o.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/5560/lY9gvLUu7-o.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/5560/lY9gvLUu7-o.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/557b/6Zwbc8s6E_I.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/557b/6Zwbc8s6E_I.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/557b/6Zwbc8s6E_I.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/5584/7VIsFFcwdec.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/5584/7VIsFFcwdec.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/5584/7VIsFFcwdec.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/55a8/ACusdQli3fI.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/55a8/ACusdQli3fI.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/55a8/ACusdQli3fI.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/5596/3P-18RDSM54.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/5596/3P-18RDSM54.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/5596/3P-18RDSM54.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/5569/8aARQ_Jr8Do.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/5569/8aARQ_Jr8Do.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/5569/8aARQ_Jr8Do.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/55ba/PxX8yaVKnHQ.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/55ba/PxX8yaVKnHQ.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/55ba/PxX8yaVKnHQ.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/559f/SNS6hN9Sp_w.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/559f/SNS6hN9Sp_w.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/559f/SNS6hN9Sp_w.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/55cc/IEY6gVAVqJA.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/55cc/IEY6gVAVqJA.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/55cc/IEY6gVAVqJA.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/55c3/auMsXyDMN2M.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/55c3/auMsXyDMN2M.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/55c3/auMsXyDMN2M.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/55b1/yI6kszPDT1U.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/55b1/yI6kszPDT1U.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/55b1/yI6kszPDT1U.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/55de/S27ae3HZ7Z0.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/55de/S27ae3HZ7Z0.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/55de/S27ae3HZ7Z0.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/55d5/FncdNRdEvEQ.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/55d5/FncdNRdEvEQ.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/55d5/FncdNRdEvEQ.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/55e7/YngfIlb9dBY.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/55e7/YngfIlb9dBY.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/55e7/YngfIlb9dBY.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/55f0/kQ4Fdy6Jpjw.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/55f0/kQ4Fdy6Jpjw.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/55f0/kQ4Fdy6Jpjw.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/5602/OhPhKZJUkr0.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/5602/OhPhKZJUkr0.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/5602/OhPhKZJUkr0.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c403930/v403930270/2e52/DvuRcBCWGWw.jpg',
+    width_m: 604,
+    height_m: 403,
+    url_c: 'https://pp.vk.me/c403930/v403930270/2e52/DvuRcBCWGWw.jpg',
+    width_c: 807,
+    height_c: 538,
+    url_l: 'https://pp.vk.me/c403930/v403930270/2e52/DvuRcBCWGWw.jpg',
+    width_l: 1280,
+    height_l: 853
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/5614/ZZmnFKzX5Lo.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/5614/ZZmnFKzX5Lo.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/5614/ZZmnFKzX5Lo.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/560b/Ol1FQamSLCE.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/560b/Ol1FQamSLCE.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/560b/Ol1FQamSLCE.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/561d/1_dcP8vF2jE.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/561d/1_dcP8vF2jE.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/561d/1_dcP8vF2jE.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/5638/yCL1wJ6MOnk.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/5638/yCL1wJ6MOnk.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/5638/yCL1wJ6MOnk.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c403930/v403930270/2e76/WsQJ2ZFeas0.jpg',
+    width_m: 402,
+    height_m: 604,
+    url_c: 'https://pp.vk.me/c403930/v403930270/2e76/WsQJ2ZFeas0.jpg',
+    width_c: 537,
+    height_c: 807,
+    url_l: 'https://pp.vk.me/c403930/v403930270/2e76/WsQJ2ZFeas0.jpg',
+    width_l: 682,
+    height_l: 1024
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/564a/BK587UP1NHU.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/564a/BK587UP1NHU.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/564a/BK587UP1NHU.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c403930/v403930270/2e40/cMfsWDrq8HQ.jpg',
+    width_m: 402,
+    height_m: 604,
+    url_c: 'https://pp.vk.me/c403930/v403930270/2e40/cMfsWDrq8HQ.jpg',
+    width_c: 537,
+    height_c: 807,
+    url_l: 'https://pp.vk.me/c403930/v403930270/2e40/cMfsWDrq8HQ.jpg',
+    width_l: 682,
+    height_l: 1024
+  }, {
+    url_m: 'https://pp.vk.me/c403930/v403930270/2e7f/yyyYF0pXbRQ.jpg',
+    width_m: 402,
+    height_m: 604,
+    url_c: 'https://pp.vk.me/c403930/v403930270/2e7f/yyyYF0pXbRQ.jpg',
+    width_c: 537,
+    height_c: 807,
+    url_l: 'https://pp.vk.me/c403930/v403930270/2e7f/yyyYF0pXbRQ.jpg',
+    width_l: 682,
+    height_l: 1024
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/562f/3NXJtME6cT4.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/562f/3NXJtME6cT4.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/562f/3NXJtME6cT4.jpg',
+    width_l: 1280,
+    height_l: 960
+  }, {
+    url_m: 'https://pp.vk.me/c403930/v403930270/2e5b/sYABPhoFF98.jpg',
+    width_m: 402,
+    height_m: 604,
+    url_c: 'https://pp.vk.me/c403930/v403930270/2e5b/sYABPhoFF98.jpg',
+    width_c: 537,
+    height_c: 807,
+    url_l: 'https://pp.vk.me/c403930/v403930270/2e5b/sYABPhoFF98.jpg',
+    width_l: 682,
+    height_l: 1024
+  }, {
+    url_m: 'https://pp.vk.me/c410830/v410830603/5626/HP1EEHpUJig.jpg',
+    width_m: 604,
+    height_m: 453,
+    url_c: 'https://pp.vk.me/c410830/v410830603/5626/HP1EEHpUJig.jpg',
+    width_c: 807,
+    height_c: 605,
+    url_l: 'https://pp.vk.me/c410830/v410830603/5626/HP1EEHpUJig.jpg',
+    width_l: 1280,
+    height_l: 960
   }
 ];
 
@@ -1598,7 +1912,7 @@ var App = React.createClass({
   getInitialState: function () {
     return {
       photos: this.props.photos,
-      pageNum: this.props.pageNum,
+      pageNum: 0,
       totalPages: this.props.totalPages,
       loadedAll: this.props.loadedAll
     };
@@ -1626,7 +1940,9 @@ var App = React.createClass({
     }
 
     const drawImages = function(photoSet) {
-      let photos = photoSet.map(function(obj){
+      const pageSize = 24;
+      const startIndex = this.state.pageNum * pageSize;
+      const photos = photoSet.slice(startIndex, startIndex + pageSize).map(function(obj){
         let aspectRatio = parseFloat(obj.width_l / obj.height_l);
         return {
           src: (aspectRatio >= 3) ? obj.url_c : obj.url_m,
@@ -1642,7 +1958,7 @@ var App = React.createClass({
       this.setState({
         photos: this.state.photos ? this.state.photos.concat(photos) : photos,
         pageNum: this.state.pageNum + 1,
-        totalPages: 1
+        totalPages: Math.ceil(photoSet.length / pageSize)
       });
     }.bind(this);
 

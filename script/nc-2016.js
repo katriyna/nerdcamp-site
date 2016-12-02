@@ -10,7 +10,8 @@ $(function() {
   initIcons();
 
   var gallery = require('./photo-gallery.jsx');
-  gallery();
+  const PHOTO_SET = require('./photo-set-constant');
+  gallery(PHOTO_SET);
 
   // console.log('Gallery', Gallery);
   // var gallery = React.createElement(Gallery.name, {});

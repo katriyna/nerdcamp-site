@@ -1690,7 +1690,7 @@ var PHOTO_SET = [{
   }
 ];
 
-var App = React.createClass({
+var InfinitePhotoGallery = React.createClass({
   
   propTypes: {
     photos: React.PropTypes.array,
@@ -1700,11 +1700,15 @@ var App = React.createClass({
   },
 
   getInitialState: function () {
+    const pageSize = 24;
+    const inputPhotoSet = this.props.photos || [];
+
     return {
-      photos: this.props.photos,
+      pageSize: pageSize,
+      photos: [],
       pageNum: 0,
-      totalPages: this.props.totalPages,
-      loadedAll: this.props.loadedAll
+      totalPages: Math.ceil(inputPhotoSet.length / pageSize),
+      loadedAll: inputPhotoSet.length === 0
     };
   },
   
@@ -1730,9 +1734,10 @@ var App = React.createClass({
     }
 
     const drawImages = function(photoSet) {
-      const pageSize = 24;
-      const startIndex = this.state.pageNum * pageSize;
-      const photos = photoSet.slice(startIndex, startIndex + pageSize).map(function(obj){
+      const startIndex = this.state.pageNum * this.state.pageSize;
+      const endIndex = startIndex + this.state.pageSize;
+
+      const photos = photoSet.slice(startIndex, endIndex).map(function(obj){
         let aspectRatio = parseFloat(obj.width_l / obj.height_l);
         return {
           src: (aspectRatio >= 3) ? obj.url_c : obj.url_m,
@@ -1748,11 +1753,11 @@ var App = React.createClass({
       this.setState({
         photos: this.state.photos ? this.state.photos.concat(photos) : photos,
         pageNum: this.state.pageNum + 1,
-        totalPages: Math.ceil(photoSet.length / pageSize)
+        loadedAll: endIndex >= photoSet.length
       });
     }.bind(this);
 
-    drawImages(PHOTO_SET);
+    drawImages(this.props.photos);
   },
   
   renderGallery: function() {
@@ -1789,6 +1794,7 @@ var App = React.createClass({
 });
 
 
-module.exports = function() {
-  ReactDOM.render(<App />, document.getElementById('past-events-gallery-placeholder'));
+module.exports = function(photoSet) {
+  photoSet = photoSet || PHOTO_SET;
+  ReactDOM.render(<InfinitePhotoGallery photos={photoSet}/>, document.getElementById('past-events-gallery-placeholder'));
 };

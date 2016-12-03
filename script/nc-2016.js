@@ -19,11 +19,15 @@ function initIcons() {
 }
 
 function shuffle(array) {
-  const resultArray = new Array(array.length);
-  for (var i = array.length; i > 0; --i) {
+  const resultArray = [];
+  array.forEach(function(arrayItem) {
+    resultArray.push(arrayItem);
+  });
+  for (var i = resultArray.length; i > 0; --i) {
     const j = Math.floor(Math.random() * i);
-    resultArray[i - 1] = array[j];
-    resultArray[j] = array[i - 1];
+    const buff = resultArray[i - 1];
+    resultArray[i - 1] = resultArray[j];
+    resultArray[j] = buff;
   }
   return resultArray;
 }

@@ -13,8 +13,8 @@ const data = [
   { value: 'Социология', count: 28 },
   { value: 'Утрянняя зарядка', count: 26 },
   { value: 'BBQ', count: 33 },
-  { value: 'Спорт на природе', count: 33 },
-  { value: 'Обучение через общение', count: 33 },
+  { value: 'Спорт загородом', count: 33 },
+  { value: 'Обучение через общение', count: 29 },
   { value: 'BarCamp', count: 30 },
   { value: 'Участники для участников', count: 25 }
 ];

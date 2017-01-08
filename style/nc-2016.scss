@@ -20,9 +20,15 @@ $nc-text-color: #333;
   &__link {
     cursor: pointer;
     white-space: nowrap;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: $nc-grey-line-color;
 
     &:hover {
       color: $nc-red-line-color;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+      text-decoration-color: $nc-red-line-color;
 
       & svg {
         fill: $nc-red-line-color;

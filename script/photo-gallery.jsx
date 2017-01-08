@@ -95,14 +95,14 @@ var InfinitePhotoGallery = React.createClass({
       return(
         <div className='App'>
           {this.renderGallery()}
-          <div className='loading-msg' id='msg-loading-more'>Loading</div>
+          <div className='loading-msg' id='msg-loading-more'>Загрузка...</div>
         </div>
       );
     }
     else{
       return(
         <div className='App'>
-          <div id='msg-app-loading' className='loading-msg'>Loading</div>
+          <div id='msg-app-loading' className='loading-msg'>Загрузка...</div>
         </div>
       );
     }

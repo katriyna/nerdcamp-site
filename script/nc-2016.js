@@ -9,6 +9,9 @@ $(function() {
   var gallery = require('./photo-gallery.jsx');
   const PHOTO_SET = require('./photo-set-constant');
   gallery(shuffle(PHOTO_SET));
+
+  var tagCloud = require('./tag-cloud.jsx');
+  tagCloud();
 });
 
 function initIcons() {

@@ -89,6 +89,12 @@ $nc-text-color: #333;
   &__block-text {
     line-height: 30px;
   }
+
+  &__tags-cloud {
+    max-width: 550px;
+    margin: 36px auto 16px;
+    text-align: center;
+  }
 }
 
 a {

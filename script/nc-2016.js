@@ -1,6 +1,7 @@
 require('./../style/nc-2016.scss');
 
 var $ = require('jquery');
+require('jquery.scrollto');
 
 $(function() {
   $('body').append(require('./../template/nc-2016.html'));
@@ -12,6 +13,8 @@ $(function() {
 
   var tagCloud = require('./tag-cloud.jsx');
   tagCloud();
+
+  initSmoothNavigation();
 });
 
 function initIcons() {
@@ -33,4 +36,17 @@ function shuffle(array) {
     resultArray[j] = buff;
   }
   return resultArray;
+}
+
+function initSmoothNavigation() {
+  var duration = 500;
+
+  function initForSectionId(sectionId) {
+    $('.nerd-camp__link_' + sectionId).on('click', function() {
+      $(window).scrollTo($('#' + sectionId), duration);
+    });
+  }
+
+  initForSectionId('about-nerd-camp');
+  initForSectionId('past-nerd-camps');
 }

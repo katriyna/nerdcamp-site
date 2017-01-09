@@ -7,6 +7,9 @@ $(function() {
   $('body').append(require('./../template/nc-2016.html'));
   initIcons();
 
+  var registrationFormButton = require('./registration-form.jsx');
+  registrationFormButton();
+
   var gallery = require('./photo-gallery.jsx');
   const PHOTO_SET = require('./photo-set-constant');
   gallery(shuffle(PHOTO_SET));

@@ -2,7 +2,6 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var TagCloud = require('react-tagcloud').TagCloud;
 
-
 const data = [
   { value: 'IT', count: 38 },
   { value: 'Весна 2017', count: 31 },

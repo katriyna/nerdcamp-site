@@ -11,6 +11,7 @@
     "react": "15.3.0",
     "react-dom": "15.3.0",
     "react-images": "0.5.1",
+    "react-modal-dialog": "4.0.4",
     "react-photo-gallery": "4.2.14",
     "react-tagcloud": "1.0.0"
   },

@@ -116,9 +116,12 @@ $nc-text-color: #333;
   }
 
   &__tags-cloud {
-    max-width: 550px;
-    float: left;
-    text-align: right;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  #vk_groups {
+    margin: auto;
   }
 }
 

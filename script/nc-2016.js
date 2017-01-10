@@ -58,6 +58,6 @@ function initSmoothNavigation() {
 
 function initVKWidget() {
   $.getScript('https://vk.com/js/api/openapi.js?136', function() {
-    window.VK.Widgets.Group("vk_groups", {mode: 3, width: "320"}, 137331637);
+    window.VK.Widgets.Group("vk_groups", {mode: 3, width: "280"}, 137331637);
   });
 }

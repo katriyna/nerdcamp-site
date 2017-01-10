@@ -111,10 +111,14 @@ $nc-text-color: #333;
     color: $nc-red-line-color;
   }
 
+  &__tags-cloud-container {
+    margin: 36px 60px 16px 40px;
+  }
+
   &__tags-cloud {
     max-width: 550px;
-    margin: 36px auto 16px;
-    text-align: center;
+    float: left;
+    text-align: right;
   }
 }
 

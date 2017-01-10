@@ -10,6 +10,8 @@ $(function() {
   var registrationFormButton = require('./registration-form.jsx');
   registrationFormButton();
 
+  initVKWidget();
+
   var gallery = require('./photo-gallery.jsx');
   const PHOTO_SET = require('./photo-set-constant');
   gallery(shuffle(PHOTO_SET));
@@ -52,4 +54,10 @@ function initSmoothNavigation() {
 
   initForSectionId('about-nerd-camp');
   initForSectionId('past-nerd-camps');
+}
+
+function initVKWidget() {
+  $.getScript('https://vk.com/js/api/openapi.js?136', function() {
+    window.VK.Widgets.Group("vk_groups", {mode: 3, width: "320"}, 137331637);
+  });
 }

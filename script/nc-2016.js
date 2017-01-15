@@ -5,10 +5,14 @@ require('jquery.scrollto');
 
 $(function() {
   $('body').append(require('./../template/nc-2016.html'));
+
+  var header = require('./sticky-header.jsx');
+  header();
+
   initIcons();
 
-  var registrationFormButton = require('./registration-form.jsx');
-  registrationFormButton();
+  // var registrationFormButton = require('./registration-form.jsx');
+  // registrationFormButton();
 
   initVKWidget();
 

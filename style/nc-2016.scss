@@ -13,6 +13,31 @@ $nc-text-color: #333;
   background-color: #fff;
   font-weight: 200;
 
+  &__sticky-panel {
+    display: block;
+    padding: 24px 4px;
+
+    &_fixed {
+      z-index: 1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 24px 58px;
+      background-color: rgba(255, 255, 255, 0.98);
+      border-bottom: 1px solid $nc-grey-line-color;
+    }
+  }
+
+  &__no-sticky-panel {
+    display: inline-block;
+    padding: 24px 4px;
+
+    span.nerd-camp__link {
+      display: none;
+    }
+  }
+
   &__pull-right {
     float: right;
   }
@@ -70,8 +95,7 @@ $nc-text-color: #333;
   &__navbar {
     border-top: dashed rgba(2, 2, 2, 0.3) 1px;
     border-bottom: dashed rgba(2, 2, 2, 0.3) 1px;
-    margin: 56px 0;
-    padding: 24px 4px;
+    margin: 56px 0 16px 0;
     font-weight: 400;
 
     & span:not(:last-child) {
@@ -88,8 +112,8 @@ $nc-text-color: #333;
   }
 
   &__block {
-    padding: 0 36px;
-    margin-bottom: 36px;
+    padding-top: 80px;
+    margin-bottom: 26px;
   }
 
   &__block-text {

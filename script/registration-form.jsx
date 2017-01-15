@@ -1,5 +1,4 @@
 var React = require('react');
-var ReactDOM = require('react-dom');
 
 var ModalContainer = require('react-modal-dialog').ModalContainer;
 var ModalDialog = require('react-modal-dialog').ModalDialog;
@@ -41,6 +40,4 @@ var NCRegistrationFormButton = React.createClass({
   }
 });
 
-module.exports = function() {
-  ReactDOM.render(<NCRegistrationFormButton />, document.getElementById('registration-button-placeholder'));
-};
+module.exports = NCRegistrationFormButton;

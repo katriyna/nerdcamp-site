@@ -38,7 +38,7 @@
     "webpack-dev-server": "1.6.6"
   },
   "scripts": {
-    "start": "webpack-dev-server --port=9004",
+    "start": "webpack-dev-server --port=9006",
     "dist": "npm install && webpack"
   },
   "author": "",

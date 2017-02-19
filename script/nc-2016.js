@@ -10,10 +10,6 @@ $(function() {
   header();
 
   initIcons();
-
-  // var registrationFormButton = require('./registration-form.jsx');
-  // registrationFormButton();
-
   initVKWidget();
 
   var gallery = require('./photo-gallery.jsx');
@@ -27,8 +23,9 @@ $(function() {
 });
 
 function initIcons() {
-  ['mail', 'vk'].forEach(function(iconName) {
+  ['mail', 'vk', 'telegram'].forEach(function(iconName) {
     var glyph = require('./../assets/' + iconName + '.svg');
+    debugger;
     $('.nerd-camp__icon_' + iconName).append('<svg style="width: 18px; height: 18px;"><use xlink:href="'+ glyph + '"/></svg>');
   });
 }

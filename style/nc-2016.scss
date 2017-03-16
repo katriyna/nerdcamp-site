@@ -116,6 +116,10 @@ $nc-text-color: #333;
     margin-bottom: 26px;
   }
 
+  &__block-org {
+    margin-top: 50px;
+  }
+
   &__block-text {
     line-height: 30px;
 
@@ -142,6 +146,15 @@ $nc-text-color: #333;
   &__tags-cloud {
     margin: 40px auto;
     text-align: center;
+  }
+
+  &__org {
+    text-align: center;
+
+    & img {
+      width: 170px;
+      border-radius: 50%;
+    }
   }
 
   #vk_groups {

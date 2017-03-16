@@ -10,14 +10,14 @@ $(function() {
   header();
 
   initIcons();
-  initVKWidget();
+  //initVKWidget();
 
   var gallery = require('./photo-gallery.jsx');
   const PHOTO_SET = require('./photo-set-constant');
   gallery(shuffle(PHOTO_SET));
 
-  var tagCloud = require('./tag-cloud.jsx');
-  tagCloud();
+  // var tagCloud = require('./tag-cloud.jsx');
+  // tagCloud();
 
   initSmoothNavigation();
 });
@@ -54,6 +54,7 @@ function initSmoothNavigation() {
 
   initForSectionId('about-nerd-camp');
   initForSectionId('past-nerd-camps');
+  initForSectionId('team');
 }
 
 function initVKWidget() {

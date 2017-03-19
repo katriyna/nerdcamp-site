@@ -22,7 +22,7 @@ var NCRegistrationFormButton = React.createClass({
   },
 
   render: function() {
-    var GOOGLE_FORM_LINK = 'https://docs.google.com/forms/d/e/1FAIpQLSdBgbM_p2O6lERKYFtfUac2FNySmFJjRgm5kAgJ7LshRfr9fQ/viewform?embedded=true';
+    var GOOGLE_FORM_LINK = 'https://docs.google.com/forms/d/e/1FAIpQLSd-vC3twuoj0axCpEQXxsuOo-h1nA2XZBwWA8fCnaG6eBf2-A/viewform?c=0&w=1';
 
     return(
       <span>

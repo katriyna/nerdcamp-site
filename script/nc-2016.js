@@ -57,6 +57,7 @@ function initSmoothNavigation() {
 
   initForSectionId('about-nerd-camp');
   initForSectionId('past-nerd-camps');
+  initForSectionId('speakers');
   initForSectionId('schedule');
 }
 

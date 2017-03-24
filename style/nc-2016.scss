@@ -23,6 +23,15 @@ $nc-text-color: #333;
     border-right: 1px $nc-red-line-color dashed;
   }
 
+  &__tab-content {
+    height: 310px;
+    padding: 0 32px;
+    overflow: auto;
+    border-bottom: 1px dashed $nc-grey-line-color;
+    border-left: 1px solid $nc-red-line-color;
+    border-top: none;
+  }
+
   &__sticky-panel {
     display: block;
     padding: 24px 4px;

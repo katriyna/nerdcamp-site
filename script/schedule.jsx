@@ -22,7 +22,7 @@ var NCSchedule = React.createClass({
         </TabList>
 
         <TabPanel>
-          <div className="nerd-camp__text-block">
+          <div className="nerd-camp__tab-content">
             <table className="nerd-camp__table nerd-camp__table_no-boarder">
               <tbody><tr>
                 <td width="150px"><b>17:30</b></td>
@@ -45,7 +45,7 @@ var NCSchedule = React.createClass({
         </TabPanel>
 
         <TabPanel>
-          <div className="nerd-camp__text-block">
+          <div className="nerd-camp__tab-content">
             <table className="nerd-camp__table nerd-camp__table_no-boarder">
               <tbody><tr>
                 <td width="150px"><b>09:30 &mdash;  10:00</b></td>
@@ -88,7 +88,7 @@ var NCSchedule = React.createClass({
         </TabPanel>
 
         <TabPanel>
-          <div className="nerd-camp__text-block">
+          <div className="nerd-camp__tab-content">
             <table className="nerd-camp__table nerd-camp__table_no-boarder">
               <tbody><tr>
                 <td width="150px"><b>09:30 &mdash;  10:00</b></td>

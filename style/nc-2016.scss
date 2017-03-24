@@ -18,9 +18,8 @@ $nc-text-color: #333;
   }
 
   & .react-tabs [role=tab][aria-selected=true] {
-    border-color: $nc-red-line-color;
-    border-radius: 23px 0 0 0;
-    border-right: 1px $nc-red-line-color dashed;
+    border: none;
+    border-bottom: 1px double $nc-red-line-color;
   }
 
   &__tab-content {

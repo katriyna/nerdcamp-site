@@ -8,13 +8,10 @@ var TabList = ReactTabs.TabList;
 var TabPanel = ReactTabs.TabPanel;
 
 var NCSchedule = React.createClass({
-  handleSelect: function(index, last) {
-    console.log('Selected tab: ' + index + ', Last tab: ' + last);
-  },
 
   render: function() {
     return (
-      <Tabs onSelect={this.handleSelect} selectedIndex={1}>
+      <Tabs selectedIndex={1}>
         <TabList>
           <Tab className="nerd-camp__link">Пятница, 21 апреля</Tab>
           <Tab className="nerd-camp__link">Суббота, 22 апреля</Tab>

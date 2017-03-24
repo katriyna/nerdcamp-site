@@ -57,7 +57,7 @@ function initSmoothNavigation() {
 
   initForSectionId('about-nerd-camp');
   initForSectionId('past-nerd-camps');
-  initForSectionId('team');
+  initForSectionId('schedule');
 }
 
 function initVKWidget() {

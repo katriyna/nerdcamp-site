@@ -13,6 +13,16 @@ $nc-text-color: #333;
   background-color: #fff;
   font-weight: 200;
 
+  & .react-tabs [role=tablist] {
+    border-bottom: 1px dashed $nc-grey-line-color;
+  }
+
+  & .react-tabs [role=tab][aria-selected=true] {
+    border-color: $nc-red-line-color;
+    border-radius: 23px 0 0 0;
+    border-right: 1px $nc-red-line-color dashed;
+  }
+
   &__sticky-panel {
     display: block;
     padding: 24px 4px;

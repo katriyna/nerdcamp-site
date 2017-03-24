@@ -19,6 +19,9 @@ $(function() {
   // var tagCloud = require('./tag-cloud.jsx');
   // tagCloud();
 
+  var schedule = require('./schedule.jsx');
+  schedule();
+
   initSmoothNavigation();
 });
 

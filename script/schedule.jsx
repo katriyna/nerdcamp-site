@@ -15,7 +15,7 @@ var NCSchedule = React.createClass({
         <TabList>
           <Tab className="nerd-camp__link">Пятница, 21 апреля</Tab>
           <Tab className="nerd-camp__link">Суббота, 22 апреля</Tab>
-          <Tab className="nerd-camp__link">Воскресение, 23 апреля</Tab>
+          <Tab className="nerd-camp__link">Воскресенье, 23 апреля</Tab>
         </TabList>
 
         <TabPanel>

@@ -19,8 +19,8 @@ $(function() {
   // var tagCloud = require('./tag-cloud.jsx');
   // tagCloud();
 
-  var schedule = require('./schedule.jsx');
-  schedule();
+  // var schedule = require('./schedule.jsx');
+  // schedule();
 
   initSmoothNavigation();
 });
@@ -57,8 +57,7 @@ function initSmoothNavigation() {
 
   initForSectionId('about-nerd-camp');
   initForSectionId('past-nerd-camps');
-  initForSectionId('speakers');
-  initForSectionId('schedule');
+  initForSectionId('team');
 }
 
 function initVKWidget() {

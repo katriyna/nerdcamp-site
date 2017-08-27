@@ -71,8 +71,8 @@ var NCStickyHeader = React.createClass({
           <span className="nerd-camp__link nerd-camp__link_about-nerd-camp">
             О формате
           </span>
-          <span className="nerd-camp__link nerd-camp__link_team">
-            Организаторы
+          <span className="nerd-camp__link nerd-camp__link_speakers">
+            Докладчики
           </span>
           <span className="nerd-camp__link nerd-camp__link_past-nerd-camps">
             Прошедшие выезды

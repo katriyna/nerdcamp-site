@@ -4,8 +4,6 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var ReactPropTypes = React.PropTypes;
 
-var NCRegistrationFormButton = require('./registration-form.jsx');
-
 var NCStickyHeader = React.createClass({
   propTypes: {
     className: ReactPropTypes.string,
@@ -77,7 +75,6 @@ var NCStickyHeader = React.createClass({
           <span className="nerd-camp__link nerd-camp__link_past-nerd-camps">
             Прошедшие выезды
           </span>
-          <NCRegistrationFormButton />
 
           <span className="nerd-camp__pull-right">
               <span>

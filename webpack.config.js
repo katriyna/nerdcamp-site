@@ -28,9 +28,12 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        loaders: [
-          'svg-sprite-loader'
-        ]
+        use: [{
+          loader: 'svg-inline-loader',
+          options: {
+            removeSVGTagAttrs: false
+          }
+        }]
       },
       {
         test: /\.scss$/,

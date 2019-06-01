@@ -20,40 +20,40 @@ module.exports = {
     }
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js[x]?$/,
         exclude: /node_modules/,
-        loader: 'babel',
-        query: {
-          presets: ['react']
-        }
+        loader: 'babel-loader?cacheDirectory'
       },
       {
         test: /\.svg$/,
         loaders: [
-          'svg-sprite'
+          'svg-sprite-loader'
         ]
       },
       {
         test: /\.scss$/,
         exclude: /node_modules/,
-        loaders: [
+        use: [
           'style-loader',
           'css-loader',
-          'autoprefixer?{browsers:["last 2 version", "safari 5", "ie > 9", "iOS > 7", "Android > 4"]}',
-          'sass-loader?outputStyle=expanded&includePaths[]=' + path.resolve('node_modules/ring-ui/components')
+          'postcss-loader',
+          'sass-loader'
         ]
       }, {
         test: /\.css$/,
         exclude: /node_modules/,
-        loader: 'style-loader!css-loader'
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
       },
       {
         test: /\.html$/,
         exclude: /node_modules/,
         loaders: [
-          'html?' + JSON.stringify({
+          'html-loader?' + JSON.stringify({
             collapseBooleanAttributes: false,
             collapseWhitespace: false
           })
@@ -62,12 +62,19 @@ module.exports = {
       {
         test: /\.png$/,
         exclude: /node_modules/,
-        loader: 'url-loader?limit=10000'
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 10000
+            }
+          }
+        ]
       }
     ]
   },
   plugins: [
-    new webpack.optimize.DedupePlugin(),
+    //new webpack.optimize.DedupePlugin(),
     new HtmlWebpackPlugin({
       template: 'index.html',
       filename: 'index.html'

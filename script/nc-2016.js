@@ -16,6 +16,9 @@ $(function() {
   const PHOTO_SET = require('./photo-set-constant');
   gallery(shuffle(PHOTO_SET));
 
+  var corusel = require('./title-corusel.jsx');
+  corusel();
+
   // var tagCloud = require('./tag-cloud.jsx');
   // tagCloud();
 

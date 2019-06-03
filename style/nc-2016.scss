@@ -85,10 +85,17 @@ $nc-text-color: #333;
     padding-top: 90px;
   }
 
+  &__header-wrapper {
+    margin-left: 40%;
+    margin-left: calc(50% - 130px);
+    margin-top: 70px;
+    margin-bottom: 170px;
+  }
+
   &__header-text {
-    font-size: 36px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-size: 52px;
+    margin-top: 40px;
+    margin-bottom: 32px;
     font-weight: 500;
     cursor: default;
 
@@ -100,6 +107,8 @@ $nc-text-color: #333;
   }
 
   &__subheader-text {
+    margin-left: 1px;
+    font-size: 17px;
     margin-top: 10px;
     padding-bottom: 20px;
     color: #222;
@@ -108,6 +117,20 @@ $nc-text-color: #333;
     & span {
       margin-right: 16px;
     }
+  }
+
+  &__date-text {
+    font-size: 25px;
+    margin-left: 2px;
+    margin-top: 24px;
+    font-weight: bold;
+  }
+
+  &__smile {
+    color: $nc-grey-line-color;
+    margin-top: 38px;
+    margin-left: 5px;
+    font-size: 31px;
   }
 
   &__navbar {

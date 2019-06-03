@@ -13,7 +13,7 @@ $(function() {
   //initVKWidget();
 
   var gallery = require('./photo-gallery.jsx');
-  const PHOTO_SET = require('./photo-set-constant');
+  var PHOTO_SET = require('./photo-set-constant');
   gallery(shuffle(PHOTO_SET));
 
   var corusel = require('./title-corusel.jsx');

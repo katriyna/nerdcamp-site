@@ -127,8 +127,9 @@ $nc-text-color: #333;
   }
 
   &__smile {
-    color: $nc-grey-line-color;
-    margin-top: 40px;
+    color: $nc-red-line-color;
+    margin-top: 50px;
+    opacity: 0.9;
     margin-left: 4px;
     font-size: 22px;
     font-family: monospace;

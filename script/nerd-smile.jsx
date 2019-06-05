@@ -42,6 +42,16 @@ var NerdSmile = React.createClass({
         this.setState({hasClosedLeftEye: false, hasClosedRightEye: false});
       }, 1000);
     }, 10000);
+
+    setInterval(() => {
+      const hasSmile = (Math.random() * 10) > 3;
+      if (!hasSmile) {
+        this.setState({hasSmile: false});
+        setTimeout(() => {
+          this.setState({hasSmile: true});
+        }, 10000);
+      }
+    }, 17000);
   },
 
   render: function() {

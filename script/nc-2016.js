@@ -19,6 +19,9 @@ $(function() {
   var corusel = require('./title-corusel.jsx');
   corusel();
 
+  var nerdSmile = require('./nerd-smile.jsx');
+  nerdSmile();
+
   // var tagCloud = require('./tag-cloud.jsx');
   // tagCloud();
 

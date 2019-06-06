@@ -30,7 +30,7 @@ var NerdSmile = React.createClass({
         this.setState({hasClosedLeftEye: true});
         setTimeout(() => {
           this.setState({hasClosedLeftEye: false});
-        }, 1000);
+        }, 200);
       }, 4000);
     }, 2500);
 
@@ -40,7 +40,7 @@ var NerdSmile = React.createClass({
       this.setState({hasClosedLeftEye, hasClosedRightEye});
       setTimeout(() => {
         this.setState({hasClosedLeftEye: false, hasClosedRightEye: false});
-      }, 1000);
+      }, 200);
     }, 10000);
 
     setInterval(() => {

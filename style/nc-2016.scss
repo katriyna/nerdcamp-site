@@ -13,6 +13,23 @@ $nc-text-color: #333;
   background-color: #fff;
   font-weight: 200;
 
+  & li {
+    list-style-type: none;
+    position: relative;
+    margin: 2px;
+    padding: 0.5em 0.5em 0.5em 2em;
+  }
+
+  & li::before {
+    content: '—';
+    position: absolute;
+    color: $nc-red-line-color;
+    font-size: 27px;
+    left: -4px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+
   & .react-tabs [role=tablist] {
     border-bottom: 1px dashed $nc-grey-line-color;
   }
@@ -138,7 +155,7 @@ $nc-text-color: #333;
   &__navbar {
     border-top: dashed rgba(2, 2, 2, 0.3) 1px;
     border-bottom: dashed rgba(2, 2, 2, 0.3) 1px;
-    margin: 56px 0 16px 0;
+    margin-top: 56px;
     font-weight: 400;
 
     & span:not(:last-child) {
@@ -157,6 +174,10 @@ $nc-text-color: #333;
   &__block {
     padding-top: 80px;
     margin-bottom: 26px;
+
+    &_no-interval {
+      padding-top: 0;
+    }
   }
 
   &__block-org {

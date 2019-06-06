@@ -70,7 +70,7 @@ var NCStickyHeader = React.createClass({
             О формате
           </span>
           <span className="nerd-camp__link nerd-camp__link_speakers">
-            Докладчики
+            Доклады
           </span>
           <span className="nerd-camp__link nerd-camp__link_past-nerd-camps">
             Прошедшие выезды

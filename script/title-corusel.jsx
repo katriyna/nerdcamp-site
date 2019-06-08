@@ -21,6 +21,7 @@ var TitleCorusel = React.createClass({
 
     return (
       <Carousel
+        interval={10000}
         infiniteLoop
         autoPlay
         swipeable={false}

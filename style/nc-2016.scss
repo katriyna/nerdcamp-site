@@ -5,6 +5,10 @@ $nc-grey-line-color: #ddd;
 $nc-header-text-color: #222;
 $nc-text-color: #333;
 
+body.nerd-camp-body {
+  background-color: white !important;
+}
+
 .nerd-camp {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -208,6 +212,61 @@ $nc-text-color: #333;
     margin: 0 16px;
     font-weight: 700;
     color: $nc-red-line-color;
+  }
+
+  &__past-nerd-camp-cell {
+    height: 250px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &#past-nerd-camp-cell-1 {
+      background-image: url('../assets/nc-1.png');
+    }
+
+    &#past-nerd-camp-cell-2 {
+      background-image: url('../assets/nc-2.png');
+    }
+
+    &#past-nerd-camp-cell-3 {
+      background-image: url('../assets/nc-3.png');
+    }
+
+    &#past-nerd-camp-cell-4 {
+      background-image: url('../assets/nc-4.png');
+    }
+
+    &#past-nerd-camp-cell-5 {
+      background-image: url('../assets/nc-5.png');
+    }
+
+    &#past-nerd-camp-cell-6 {
+      background-image: url('../assets/nc-6.png');
+    }
+
+    &#past-nerd-camp-cell-7 {
+      background-image: url('../assets/nc-7.png');
+    }
+
+    &#past-nerd-camp-cell-8 {
+      background-image: url('../assets/nc-8.png');
+    }
+
+    &__overlay {
+      opacity: 0;
+      background-color: $nc-header-text-color;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 250px;
+
+      &:hover {
+        opacity: 0.2;
+        cursor: pointer;
+      }
+    }
   }
 
   &__tags-cloud-container {

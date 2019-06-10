@@ -73,7 +73,7 @@ var NCStickyHeader = React.createClass({
             Доклады
           </span>
           <span className="nerd-camp__link nerd-camp__link_past-nerd-camps">
-            Прошедшие выезды
+            Как это было
           </span>
 
           <span className="nerd-camp__pull-right">

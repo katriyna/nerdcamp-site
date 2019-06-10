@@ -22,6 +22,9 @@ $(function() {
   var nerdSmile = require('./nerd-smile.jsx');
   nerdSmile();
 
+  var pastNerdCamps = require('./past-nerd-camps-list.jsx');
+  pastNerdCamps();
+
   // var tagCloud = require('./tag-cloud.jsx');
   // tagCloud();
 

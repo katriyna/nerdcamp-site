@@ -8,7 +8,6 @@ var NerdSmile = React.createClass({
 
   getInitialState: function() {
     return {
-      hasFinger: false,
       hasSmile: false,
       hasClosedRightEye: false,
       hasClosedLeftEye: false
@@ -16,14 +15,6 @@ var NerdSmile = React.createClass({
   },
 
   componentDidMount: function() {
-    setTimeout(() => {
-      this.setState({hasFinger: true});
-    }, 500);
-
-    setTimeout(() => {
-      this.setState({hasFinger: false});
-    }, 1500);
-
     setTimeout(() => {
       this.setState({hasSmile: true});
       setTimeout(() => {
@@ -58,9 +49,7 @@ var NerdSmile = React.createClass({
     const smileChar = this.state.hasSmile ? 'v' : '_';
     const leftEyeChar = this.state.hasClosedLeftEye ? '‾' : '^';
     const rightEyeChar = this.state.hasClosedRightEye ? '‾' : '^';
-    const fingerChar = this.state.hasFinger ? '!' : ',';
-    const smile =
-      `___,,,_(${rightEyeChar}${smileChar}${leftEyeChar})_${fingerChar},,___`;
+    const smile = `___,,,_(${rightEyeChar}${smileChar}${leftEyeChar})_,,,___`;
 
     return (<span>{smile}</span>)
   }

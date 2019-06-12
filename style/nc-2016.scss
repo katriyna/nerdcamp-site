@@ -263,6 +263,12 @@ body.nerd-camp-body {
     }
   }
 
+  &__icon_facebook svg {
+    width: 22px;
+    top: 2px;
+    position: relative;
+  }
+
   &__tags-cloud-container {
     margin: 36px 60px 16px 40px;
   }

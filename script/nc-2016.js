@@ -35,7 +35,7 @@ $(function() {
 });
 
 function initIcons() {
-  ['mail', 'vk', 'telegram'].forEach(function(iconName) {
+  ['mail', 'facebook'].forEach(function(iconName) {
     var glyph = require('./../assets/' + iconName + '.svg');
     $('.nerd-camp__icon_' + iconName).append(glyph);
   });

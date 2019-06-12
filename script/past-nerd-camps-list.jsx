@@ -40,7 +40,7 @@ var PastNerdCamps = React.createClass({
 
     return (
       <div>
-        <GridList cellHeight={250} cols={4}>
+        <GridList cellHeight={250} cols={window.innerWidth < 600 ? 2 : 4}>
           {data.map(tile => (
             <GridListTile key={tile.image}>
               <img src={tile.image} alt={tile.title} />

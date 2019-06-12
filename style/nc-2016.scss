@@ -10,12 +10,12 @@ body.nerd-camp-body {
 }
 
 .nerd-camp {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: system, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: $nc-text-color;
   background-color: #fff;
-  font-weight: 200;
+  font-weight: 300;
 
   &__info-list {
     & li {
@@ -56,26 +56,22 @@ body.nerd-camp-body {
 
   &__sticky-panel {
     display: block;
-    padding: 24px 4px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 24px 58px;
+    background-color: rgba(255, 255, 255, 0.98);
 
-    &_fixed {
-      z-index: 1;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      padding: 24px 58px;
-      background-color: rgba(255, 255, 255, 0.98);
+    &_with-border {
       border-bottom: 1px solid $nc-grey-line-color;
     }
-  }
 
-  &__no-sticky-panel {
-    display: inline-block;
-    padding: 24px 4px;
-
-    span.nerd-camp__link {
-      display: none;
+    &_small-screen {
+      & span.nerd-camp__link {
+        display: none;
+      }
     }
   }
 
@@ -105,7 +101,8 @@ body.nerd-camp-body {
   &__header {
     position: relative;
     width: 100%;
-    padding-top: 90px;
+    padding-top: 120px;
+    padding-top: 20vh;
   }
 
   &__header-wrapper {
@@ -159,9 +156,6 @@ body.nerd-camp-body {
   }
 
   &__navbar {
-    border-top: dashed rgba(2, 2, 2, 0.3) 1px;
-    border-bottom: dashed rgba(2, 2, 2, 0.3) 1px;
-    margin-top: 56px;
     font-weight: 400;
 
     & span:not(:last-child) {

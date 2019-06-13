@@ -18,6 +18,7 @@
     "react-images": "0.5.1",
     "react-modal-dialog": "4.0.4",
     "react-photo-gallery": "4.2.14",
+    "react-preload-image": "1.0.4",
     "react-responsive-carousel": "^3.1.49",
     "react-tagcloud": "1.0.0"
   },

@@ -3,6 +3,7 @@ const ReactDOM = require('react-dom');
 const GridList = require('@material-ui/core/GridList').default;
 const GridListTile = require('@material-ui/core/GridListTile').default;
 const GridListTileBar = require('@material-ui/core/GridListTileBar').default;
+const ImagePreload = require('react-preload-image').default;
 
 
 const PAST_NERD_CAMPS_DATA = [{
@@ -36,14 +37,13 @@ var PastNerdCamps = React.createClass({
 
   render: function() {
     const {data} = this.state;
-    console.log('GridList', GridList);
 
     return (
       <div>
         <GridList cellHeight={250} cols={window.innerWidth < 600 ? 2 : 4}>
           {data.map(tile => (
             <GridListTile key={tile.image}>
-              <img src={tile.image} alt={tile.title} />
+              <ImagePreload src={tile.image} alt={tile.title} />
               <GridListTileBar
                 title={(<a target="_blank" href={tile.link}>{tile.title}</a>)}
               />

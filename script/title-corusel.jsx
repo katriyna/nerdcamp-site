@@ -33,7 +33,7 @@ var TitleCorusel = React.createClass({
           <div
             key={index}
           >
-            <img src={item.image}/>
+            <img src={item.image} alt={item.title}/>
             <p className="legend">{item.title}</p>
           </div>
         ))}

@@ -72,7 +72,7 @@ var NCStickyHeader = React.createClass({
               <a href="mailto:nerdcamp.info@gmail.com" target="_blank" className="nerd-camp__link nerd-camp__icon_mail"></a>
           </span>
           <span>
-              <a href="https://vk.com/nc2017" target="_blank" className="nerd-camp__link nerd-camp__icon_facebook"></a>
+              <a href="https://www.facebook.com/groups/1933437980094604/" target="_blank" className="nerd-camp__link nerd-camp__icon_facebook"></a>
           </span>
         </span>
       </div>
